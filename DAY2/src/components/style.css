@@ -1,0 +1,141 @@
+.Navbar {
+    width: 100%;
+  }
+  h1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    text-align: center;
+  }
+  img {
+    width: 100%;
+  }
+  .Navbar div {
+    width: 50%;
+  }
+  .Navbar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* .body {
+    width: 30%;
+  } */
+  
+  .bodyChild {
+    display: flex;
+  }
+  .bodyChild div {
+    width: 50%;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .bodyChildForm {
+    border-bottom: 3px solid rgb(231, 10, 137);
+    font-weight: 900;
+    align-items: center;
+  }
+  form button {
+    background-color: rgb(60, 40, 192);
+    border-radius: 1.5rem;
+    border: none;
+    color: white;
+    padding: 10px 0;
+    font-weight: 900;
+    margin-top: 1.5rem;
+    
+  }
+  form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    align-items: center;
+    
+  }
+  
+  form input {
+    padding: 10px 0;
+    border-radius: 1.5rem;
+    margin-bottom: 1rem;
+    border: 1.5px solid rgb(116, 116, 116);
+    padding-left: 1.5rem;
+  }
+  h4 {
+    text-align: right;
+    color: rgb(10, 135, 231);
+    font-size: 14px;
+    font-weight: 400;
+    align-items: center;
+  }
+  .opac {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: sans-serif;
+    border-radius: 40px;
+    background-color: burlywood;
+    width: 600px;
+   opacity: 0.9;
+  
+  }
+  
+  h5 {
+    font-weight: 100;
+    color: rgb(35, 33, 33);
+    text-align: center;
+  }
+  
+  .icon {
+    width: 1.9rem;
+    height: 1.9rem;
+    border-radius: 50%;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 12px;
+  }
+  .SocialIcons {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  h6 {
+    text-align: center;
+    font-size: 0.7rem;
+    font-weight: 100;
+  }
+  b {
+    color: rgb(179, 91, 237);
+    font-weight: 400;
+  }
+  
+  /* @media only screen and (max-width: 600px) {
+    .body {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .body {
+      width: 55%;
+    }
+  }
+  @media only screen and (max-width: 300px) {
+    .body {
+      width: 90%;
+    }
+  }
+   */
+  body{
+    background-image: url("https://res.cloudinary.com/dlc4brfar/image/upload/v1688961532/wallpaperflare.com_wallpaper_2_yqmjtn.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+  }
+
+  h4{
+    align-items: center;
+    position:relative;
+  }
+  
