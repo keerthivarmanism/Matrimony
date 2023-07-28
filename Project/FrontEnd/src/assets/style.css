@@ -1,0 +1,110 @@
+.Navbar {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+}
+.Navbar div {
+  width: 40%;
+}
+.Navbar {
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+}
+
+.body {
+  width: 30%;
+}
+
+.bodyChild {
+  display: flex;
+  color: azure;
+  
+}
+
+.bodyChild div {
+  width: 50%;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.bodyChildForm {
+  border-bottom: 3px solid rgb(255, 152, 137);
+  font-weight: 900;
+}
+
+.div {
+  
+  font-weight: 900;
+}
+
+ button {
+  background-color: rgb(255, 152, 137);
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  padding: 10px 0;
+  font-weight: 900;
+  margin-top: 1.5rem;
+  width: 80px;
+
+}
+
+form {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  text-align: center;
+  /* margin-left: 100%;
+  background-color:black ;
+  opacity: 0.9;
+  padding: 10%;
+  width:400px ;
+ */
+
+}
+
+form input {
+  padding: 10px 0;
+  border-radius: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1.5px solid rgb(255, 255, 255);
+  padding-left: 1.5rem;
+  align-items: center;
+  justify-content: space-around;
+}
+h4 {
+  text-align: right;
+  color: rgb(218, 108, 92);
+  font-size: 14px;
+  font-weight: 400;
+}
+h6{
+  text-align: right;
+  color: rgb(206, 127, 115);
+  font-size: 14px;
+  font-weight: 400;
+}
+.opac {
+  align-content: center;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  font-family: sans-serif;
+  margin-top: 100px;
+  border: 1px;
+  border-radius: 25px;
+  background-color: rgb(173, 158, 218);
+  opacity: 0.9;
+  color: rgb(79, 204, 204);
+
+
+  
+}
+
+

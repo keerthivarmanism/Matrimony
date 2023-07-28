@@ -1,0 +1,188 @@
+/* profile-setup.css */
+
+/* General styles */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+  }
+  
+  section#profile-setup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
+  .prof-container {
+    width: 400px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .main-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-left: 10%;
+  }
+  
+
+  .Profilecr form
+  {
+    margin-left: 50%;
+  }
+  /* Form styles */
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .field-wrap {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: 500;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .address {
+    width: 100%;
+  }
+  
+  .combo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .combo .field-wrap {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .combo .field-wrap:last-child {
+    margin-right: 0;
+  }
+  
+  /* Profile photo upload section */
+  .extra-field {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .input-title {
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .image-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .image-upload img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Gender selection section */
+  .gender {
+    text-align: center;
+  }
+  
+  .radio-holder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .radio {
+    margin-right: 10px;
+  }
+  
+  .radio-label {
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  /* Terms and Conditions acknowledgment */
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .switch-checkbox {
+    width: 50px;
+    height: 25px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .switch-checkbox:before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: 2.5px;
+    left: 2.5px;
+    transition: all 0.3s;
+  }
+  
+  .switch-checkbox:checked:before {
+    transform: translateX(25px);
+  }
+  
+  /* Submit button */
+  .submit {
+    text-align: center;
+  }
+  
+  .button {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .form
+  {
+    width:500px;
+    background-color: white;
+  }

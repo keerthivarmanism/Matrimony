@@ -1,0 +1,90 @@
+/* LoginPage.css
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .login-form {
+    background-color: #050505;
+    padding: 40px;
+    opacity: 0.7;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    align-items: center;
+    border-radius: 25px;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: whitesmoke;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  input {
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-left: 10%;
+  }
+  
+  button {
+    width: 65%;
+    padding: 12px 0;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(255, 152, 137) ;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    margin-left: 15%;
+
+
+  }
+  
+  button:hover {
+    background-color: #2476a8;
+  }
+  
+ 
+  input:invalid {
+    border-color: #ff4d4d;
+  }
+  
+  input:invalid + span::before {
+    content: "Invalid input";
+    color: #ff4d4d;
+    font-size: 12px;
+    font-weight: normal;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #2980b9;
+    box-shadow: 0 0 5px #2980b9;
+  }
+
+  .error {
+    color: #ff4d4d;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 4px;
+  } */

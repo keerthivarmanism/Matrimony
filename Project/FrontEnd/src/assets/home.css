@@ -1,0 +1,124 @@
+
+
+
+header {
+    background-color: #174d56;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    opacity: 0.9;
+  }
+
+  nav{
+    align-items: center;
+    display: flex;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;;
+    padding: 0;
+  }
+  .pic img{
+    float: right;
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-left: 300px;
+    align-items: center;
+
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+    align-items: center;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    position: relative;
+    margin-left: 130px;
+    font-style: italic;
+  }
+  
+  nav a:hover {
+    background-color: #0e838b;
+  }
+  
+  .logo img {
+    width: 90px;
+    height: 90px;
+    margin-top: 10px;
+  
+  }
+  
+  .login {
+    float: right;
+  }
+  header{
+    align-items: center;
+  }
+  
+  .signup {
+    float: right;
+    margin-left: 50px;
+  }
+  
+  main {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: #154d52;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-top: 500px;
+    
+  }
+  
+  .dashboard {
+    margin-top: 40px;
+  }
+
+  
+  
+
+
+  .match{
+    text-align: center;
+  }
+  .match h1{
+    color: #0f0f10;
+    font-family: "Playfair Display", serif;
+  }
+  .match h2{
+    color: rgb(194, 93, 93);
+    font-family: "Playfair Display", serif;
+  }
+  .match b{
+    color: #c65a5a;
+    font-family: "Playfair Display", serif;
+
+  }
+  
+
+  .pic
+{
+    width: 70px;
+    height: 70px;
+    float: right;
+    margin-left: 300px;
+    align-items: center;
+    margin-top: 0%;
+    
+}
+
+
+  
